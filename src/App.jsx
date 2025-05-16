@@ -3,7 +3,11 @@ import Interface from "./components/Interface";
 import Searchbar from "./components/Searchbar";
 import LocationTime from "./components/LocationTime";
 import Body from "./components/Body";
+<<<<<<< HEAD
 import FiveDay from "./components/FiveDay.jsx";
+=======
+import FiveDay from "./components/FiveDay.jsx"; 
+>>>>>>> 672b31e0279dcb3462a5a6f950d69343516f6b47
 import getFormattedWeatherData from "./services/WeatherService";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

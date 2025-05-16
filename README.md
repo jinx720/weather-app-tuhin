@@ -1,12 +1,25 @@
-# React + Vite
+<h3> Weather App </h3>
+A minimalistic weather app built using React.js, Vite, Tailwind CSS, JavaScript and OpenWeatherMap API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Features:</h2>
+<ul>
+  <li>City based app: The search bar takes inputs from the user and shows the current recorded temperature, humidity, wind speed and overall weather condition of mentioned city</li>
+  <li>Geo-Location support: Fetches exact location.</li>
+  <li>5 day and 3 hour step constant weather condition updates a nd forecast.</li>
+  <li>Sunrise time, Sunset time, Maximum temperature, Minimum temperature, Real feel temperature: All included.</li>
+  <li>Shows Refresh and Loading status when website is opened or new city is searched, courtesy of toast notification, react.</li>
+  <li>Responsive on mobile and desktop.</li>
+  <li>Celsius and Farenheit toggle switch.</li>
+</ul>
 
-Currently, two official plugins are available:
+<h2>Technology used:</h2>
+<ol>
+  <li/>Vite + React
+  <li/>Tailwind Css
+  <li/>OpenWeatherMap API
+  <li/>Toast Notification: React
+  <li/>Date Formatting: Luxon
+</ol>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h6>Made by Tuhinangshu Majumder (22051295), KIIT UNIVERSITY</h6>
+<h6>Note: Project was made in 11 hours, more updates coming soon :)</h6>
